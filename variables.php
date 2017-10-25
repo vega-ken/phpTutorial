@@ -1,5 +1,5 @@
 <?php
-  # variables
+  #VARIABLES
   /* 
     - prejifo siempre $
     - empiezan con letras o _ 
@@ -38,4 +38,10 @@
   $float1 = 4.4;
   $bool1 = true;
   echo $bool1
+
+  #CONSTANTS
+  define('GREETING','Hello everyone'); // solo usar si sabes que este string nunca cambiará
+    // el tercer parametro si está en true hace a la constante notCaseSensitive
+  echo GREETING;
+
 ?>
