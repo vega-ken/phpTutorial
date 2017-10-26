@@ -1,0 +1,13 @@
+la idea de incluir es reducir el codigo que se repite
+
+incluir como he visto hasta ahora pone todo el código html o incluso php
+
+lo hace en el orden que lo incluyes así que debes tener en cuenta el orden de tu archivo en donde incluyes los archivos
+
+la ventaja es que ya en cada archivo te aseguras solo de trabajar en el contenido principal
+
+#include
+  si no encuentra el archivo, sigue el script de todas maneras
+
+#require
+  si no encuentra el archivo, se detiene el script y arroja error
