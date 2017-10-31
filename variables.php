@@ -27,7 +27,7 @@
 
   $string1 = 'Hello';
   $string2 = 'mundo';
-  $greeting = $string1 .' '. $string2 . '!' ;
+  $greeting = $string1 .' '. $string2 . '!' ; // concatenar
   echo $greeting;
   $greeting2 = "$string1 $string2";
   echo $greeting2;

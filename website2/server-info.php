@@ -1,14 +1,16 @@
 <?php 
   # $_SERVER SUPERGLOBAL
+    # http://php.net/manual/en/language.variables.superglobals.php
+    # almost everything is commented because the outputs are used in index.php
 
   //create server array
   $server = [
     'Host server name' => $_SERVER['SERVER_NAME'],
     'Server software' => $_SERVER['SERVER_SOFTWARE'],
     'Document root' => $_SERVER['DOCUMENT_ROOT'],
-    'Current page' => $_SERVER['PHP_SELF'],
+    'Current page' => $_SERVER['PHP_SELF'], // example : to submit to the same page
     'Script name' => $_SERVER['SCRIPT_NAME'],
-    'Absoulte path' => $_SERVER['SCRIPT_FILENAME']
+    'Absoulte path' => $_SERVER['SCRIPT_FILENAME'] 
   ];
 /*
   echo "<pre>"; // wrapping this in pre tags makes it more readable

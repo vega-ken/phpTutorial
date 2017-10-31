@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <h1>Server & File info</h1>
-    <?php if($server): ?>
+    <?php if($server): ?> <!-- a better way to make an if statement in HTML -->
       <ul class="list-group">
         <?php foreach( $server as $key => $value ): ?>
           <li class="list-group-item">
